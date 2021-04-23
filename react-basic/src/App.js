@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ApiFetch from './components/ApiFetch';
+// import ApiFetch from './components/ApiFetch';
 // import Basic2 from './components/Basic2';
 // import BasicUseEffect from './components/BasicUseEffect';
 // import TimerContainer from './components/TimerContainer';
 import AppContext from './contexts/AppContext';
-import B from './components/B';
+// import B from './components/B';
+import BasicReducer from './components/BasicReducer';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
         {/* <Basic2 /> */}
         {/* <BasicUseEffect /> */}
         {/* <TimerContainer /> */}
-        <ApiFetch />
-        <B />
+        {/* <ApiFetch /> */}
+        {/* <B /> */}
+        <BasicReducer />
 
         </header>
     </div>
